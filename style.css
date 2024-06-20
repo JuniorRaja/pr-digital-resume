@@ -6,6 +6,23 @@
     box-sizing: border-box;
 }
 
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 1000 */
+
+.dm-sans-100 {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.dm-sans-300 {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
 html {
     font-size: 100%;
 }
@@ -13,7 +30,8 @@ html {
 body {
     -webkit-font-smoothing: antialiased;
     color: #333332;
-    font-family: Lora, serif;
+    font-family: "DM Sans",
+        sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.4;
@@ -76,7 +94,8 @@ h1 {
 }
 
 .name-hero h1 {
-    font-family: Open Sans, sans-serif;
+    font-family: "DM Sans",
+        sans-serif;
     font-size: 1.5em;
     text-align: center;
 }
